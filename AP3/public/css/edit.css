@@ -1,0 +1,92 @@
+/* === Style global sombre === */
+body {
+    background: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* === Header avec titre et bouton retour === */
+header {
+    background: #1f1f1f;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-title {
+    color: #f1c40f;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-right a.button {
+    background: #f1c40f;
+    color: #121212;
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-right a.button:hover {
+    background: #d4ac0d;
+}
+
+/* === Contenu principal centré === */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.container {
+    background: #1f1f1f;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+    text-align: center;
+    width: 100%;
+    max-width: 420px;
+}
+
+/* === Formulaire === */
+form label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+    background: #2c2c2c;
+    color: #fff;
+}
+
+form input:focus {
+    border: 1px solid #f1c40f;
+    outline: none;
+}
+
+/* === Bouton enregistrer === */
+form button {
+    background: #f1c40f;
+    color: #121212;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+form button:hover {
+    background: #d4ac0d;
+}
